@@ -1,0 +1,61 @@
+/* ------------------------------ reset ------------------------------ */
+* { margin: 0em; padding: 0em; }
+fieldset, img { border: none; }
+header, footer, nav, section, article, aside, hgroup { display: block }
+li { list-style:none; }
+
+html { margin: 0; height: 100vh; position: relative; }
+body { display: flex; }
+
+a:hover { text-decoration: none;}
+
+.arial { font-family: Arial, Helvetica, sans-serif; }
+.lucida { font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Helvetica, sans-serif; }
+.trebuchet { font-family: Trebuchet MS, Arial, Helvetica, sans-serif; }
+.tahoma { font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; }
+.courier { font-family:"Courier New", Courier, monospace; }
+.graublau { font-family:GraublauWeb,Verdana, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Helvetica, sans-serif; }
+
+/* ------------------------------ typography ------------------------------ */
+@font-face { font-family: GraublauWeb; src: url("fonts/GraublauWeb.otf") format("truetype"); }
+@font-face { font-family: GraublauWeb; font-weight: bold; src: url("fonts/GraublauWebBold.otf") format("truetype"); }
+@font-face { font-family: Vegur; src: url("fonts/Vegur-regular.otf") format("opentype"); }
+@font-face { font-family: Vegur; font-style: italic; src: url("fonts/Vegur-light.otf") format("opentype"); }
+@font-face { font-family: Vegur; font-weight: bold; src: url("fonts/Vegur-bold.otf") format("opentype"); }
+
+h3 { font-size: 2em; margin: .5em 0em; text-align: center; font-family: Vegur, Arial, Helvetica, sans-serif; font-weight: bold; text-shadow: 1px 2px 2px rgb(200,200,200); }
+h4 { font-size: 1.25em; text-align: center; color: rgb(175,175,175); font-size: 1.25em; }
+
+/* ------------------ section#squeeze ------------------ */
+section#squeeze { position: absolute; top: 25%; left: 50%; width: 450px; height: 480px; margin-top: -35px; margin-left: -225px; padding: 0em 0em; font-size: 1em; background: rgb(255,255,255); border: 2px solid rgb(100,100,100); border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: rgb(255,255,255); box-shadow: 0px 0px 16px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 16px rgba(0,0,0,0.3); -khtml-box-shadow: 0px 0px 16px rgba(0,0,0,0.3); -webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.3); }
+section#squeeze h1#logo { text-align: center; margin: .5em 0em 0em 0em; }
+section#squeeze article { margin: 1em 1em; }
+section#squeeze p { margin: .5em 0em; }
+section#squeeze aside.action { overflow: hidden; padding: 0em 0em; width: 95%; margin: 0em auto; }
+section#squeeze aside.action form input.btn { width: 395px; padding: .25em 0em; margin: .5em auto; font-weight: bold; display: block; text-align: center; font-size: 2em; height: 60px; }
+section#squeeze aside.action form dl dt { clear:both; padding: .5em 0em; text-align: left; }
+section#squeeze aside.action form dl dd { clear:both; margin: .5em 0em; text-align: left; }
+section#squeeze aside.action form label { font-weight: bold; }
+
+section#squeeze aside.action form input[type="text"] { -webkit-appearance:none!important; -webkit-border-horizontal-spacing:0!important; -webkit-border-vertical-spacing:0!important; -webkit-box-shadow:none!important; -webkit-font-smoothing:auto!important; -webkit-rtl-ordering:logical!important; -webkit-transform:none!important; -webkit-user-select:text!important; background-color:#FAFAFA!important; background-image:none!important; background-origin:padding-box!important; border-bottom-color:#DDD!important; border-bottom-left-radius:3px!important; border-bottom-right-radius:3px!important; border-bottom-style:solid!important; border-bottom-width:1px!important; border-collapse:separate!important; border-left-color:#DDD!important; border-left-style:solid!important; border-left-width:1px!important; border-right-color:#DDD!important; border-right-style:solid!important; border-right-width:1px!important; border-top-color:#DDD!important; border-top-left-radius:3px!important; border-top-right-radius:3px!important; border-top-style:solid!important; border-top-width:1px!important; box-shadow:none!important; display:block; color:#888!important; padding:.5em .5em; font-size:1em; width:375px; margin:0em auto; }
+
+/*section#squeeze aside.action form input[type="text"] { border-radius: 3px;width: 390px; padding: .25em .25em; border: 1px solid #dfdfdf; font-size: 1.25em; letter-spacing: -1px; -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04), inset 0 2px 8px 0 rgba(0, 0, 0, 0.075); -moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04), inset 0 2px 8px 0 rgba(0, 0, 0, 0.075); box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04), inset 0 2px 8px 0 rgba(0, 0, 0, 0.075); -webkit-transition: all 0.25s linear; -moz-transition: all 0.25s linear; transition: all 0.25s linear; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+input[type="text"] {  }
+
+section#squeeze aside.action form input[type="text"]:focus { -webkit-box-shadow: 0 0 0 3px rgba(33, 187, 225, 1), inset 0 2px 8px 0 rgba(0, 0, 0, 0.075); -moz-box-shadow: 0 0 0 3px rgba(33, 187, 225, 1), inset 0 2px 8px 0 rgba(0, 0, 0, 0.075); box-shadow: 0 0 0 3px rgba(33, 187, 225, 1), inset 0 2px 8px 0 rgba(0, 0, 0, 0.075); }*/
+
+/* ------------------------------ classes ------------------------------ */
+.centre { text-align: center; }
+
+/* ------------------------------
+Addons
+------------------------------ */
+#bgimg { position:absolute; z-index:1; }
+#horizont { position:absolute; left:0px; top:0px; height:auto; width:100%; overflow:visible; z-index:2; }
+
+
+/* ------------------------------
+Hacks
+------------------------------ */
+.btn { font-family: Vegur, Arial, Helvetica, sans-serif; }
+.btn:hover { color: rgb(255,255,255);}

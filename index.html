@@ -1,0 +1,76 @@
+<!doctype html> 
+<html id="dark"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>[PAGE_TITLE] | [SITE_NAME]</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/bootstrap-modified.css" rel="stylesheet" type="text/css" media="all" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script type="text/javascript" src="js/backstretch.min.js"></script>
+<script type="text/javascript">
+function validateForm()
+{
+var x=document.forms["optin"]["Contact0FirstName"].value;
+if (x==null || x=="")
+  {
+  alert("First name must be filled out");
+  return false;
+  }
+var x=document.forms["optin"]["Contact0Email"].value;
+if (x==null || x=="")
+  {
+  alert("Email must be filled out");
+  return false;
+  }
+}
+</script>
+
+<body class="graublau">
+
+<section id="squeeze">
+
+<article> 
+
+<p class="centre">
+<img src="img/report.png" alt="" />
+</p>
+
+<h3>&#8220;[HEADLINE]&#8221;</h3>
+
+<p class="centre">[CTA].</p>
+
+<aside class="action">
+
+<form action="" method="POST" class="optin" name="optin" onsubmit="return validateForm()">
+
+<fieldset> 
+<dl>
+<dd>
+<input id="" type="text" name="Contact0FirstName" placeholder="Name" />
+</dd>
+<dd>
+<input id="" type="text" name="Contact0Email" placeholder="Best Email Address" />
+</dd>
+</dl>
+<input type="submit" class="btn carrot" value="Claim My Instant Access" />
+</fieldset>
+
+</form>
+
+</aside> 
+
+</article>
+
+</section> 
+
+<br clear="all" />
+
+<script type="text/javascript">
+$.backstretch("img/tahiti.jpg");
+</script>
+
+</body>
+
+</html>
